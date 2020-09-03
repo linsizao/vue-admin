@@ -1,0 +1,23 @@
+{
+  
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    {
+      "language": "html",
+      "autoFix": true
+    },
+    {
+      "language": "vue",
+      "autoFix": true
+    }
+  ],
+  "eslint.run": "onSave",
+  "eslint.autoFixOnSave": true,
+  "editor.detectIndentation": false,
+  "editor.tabSize": 2,
+  "files.eol": "\n",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+}
